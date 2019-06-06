@@ -12,6 +12,7 @@ persist_with: aws_tjxco_02008_cdf_default_datagroup
 
 explore: tms_distinct_ains {}
 
+explore: tms_pm_pdfs {}
 
 explore: cdf_asm_merit_master {}
 
