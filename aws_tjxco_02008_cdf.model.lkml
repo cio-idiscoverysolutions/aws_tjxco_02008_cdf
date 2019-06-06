@@ -10,6 +10,9 @@ datagroup: aws_tjxco_02008_cdf_default_datagroup {
 
 persist_with: aws_tjxco_02008_cdf_default_datagroup
 
+explore: tms_distinct_ains {}
+
+
 explore: cdf_asm_merit_master {}
 
 explore: cdf_asm_ratings_master {}
