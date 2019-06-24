@@ -26,6 +26,12 @@ view: cdf_asm_history_master {
     sql: ${TABLE}.EFFECTIVE_START_DATE ;;
   }
 
+  dimension: effective_start_date_dt {
+    type: date
+    sql: ${TABLE}.EFFECTIVE_START_DATE ;;
+  }
+
+
   dimension: employee_number {
     type: string
     sql: ${TABLE}.EMPLOYEE_NUMBER ;;
