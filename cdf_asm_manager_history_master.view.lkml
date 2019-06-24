@@ -21,6 +21,13 @@ view: cdf_asm_manager_history_master {
     sql: ${TABLE}.EFFECTIVE_END_DATE ;;
   }
 
+
+  dimension: effective_start_date_dt {
+    type: date
+    sql: cast(${TABLE}.EFFECTIVE_START_DATE as date) ;;
+  }
+
+
   dimension: effective_start_date {
     type: string
     sql: ${TABLE}.EFFECTIVE_START_DATE ;;
