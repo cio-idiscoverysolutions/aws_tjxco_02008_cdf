@@ -26,6 +26,11 @@ view: cdf_discovery_selections_store_map_master {
   }
 
 
+  dimension: Accuracy {
+    type: number
+    sql: ${TABLE}.Accuracy ;;
+  }
+
 dimension: coordinates {
   type:  location
   sql_latitude: ${lat} ;;
