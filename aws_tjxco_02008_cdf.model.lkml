@@ -10,6 +10,9 @@ datagroup: aws_tjxco_02008_cdf_default_datagroup {
 
 persist_with: aws_tjxco_02008_cdf_default_datagroup
 
+explore: cdf_discovery_map_master {}
+
+
 explore: cdf_payroll_cognos_asm_sm_master {}
 
 explore: cdf_payroll_oracle_asm_master {}
