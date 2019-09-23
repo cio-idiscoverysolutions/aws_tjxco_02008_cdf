@@ -7,7 +7,7 @@ view: cdf_discovery_selections_store_map_master {
   }
 
   dimension: emp_number {
-    type: number
+    type: string
     sql: ${TABLE}.EmpNumber ;;
   }
 
